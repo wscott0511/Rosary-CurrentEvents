@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9037017258942D100D4133C /* JoyfulMysteryMystery5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9037016258942D100D4133C /* JoyfulMysteryMystery5View.swift */; };
+		B903701A258943DD00D4133C /* Joyful5DedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9037019258943DD00D4133C /* Joyful5DedicationView.swift */; };
+		B91280582576BBAB00AB5AA9 /* ChooseDayview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91280572576BBAB00AB5AA9 /* ChooseDayview.swift */; };
+		B928B14A25881C7C000D9CDA /* JoyfulMysteryMystery1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B928B14925881C7C000D9CDA /* JoyfulMysteryMystery1View.swift */; };
+		B95E40F5258930E1004138C1 /* JoyfulMysteryMystery3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E40F4258930E1004138C1 /* JoyfulMysteryMystery3.swift */; };
+		B95E40F825893187004138C1 /* Joyful3DedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E40F725893187004138C1 /* Joyful3DedicationView.swift */; };
+		B95E40FC2589324F004138C1 /* JoyfulMystery3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E40FB2589324F004138C1 /* JoyfulMystery3View.swift */; };
+		B95E40FF25893305004138C1 /* JoyfulMysteryMystery4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E40FE25893305004138C1 /* JoyfulMysteryMystery4View.swift */; };
+		B95E410225893DC7004138C1 /* Joyful4DedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E410125893DC7004138C1 /* Joyful4DedicationView.swift */; };
+		B95E410525893E62004138C1 /* JoyfulMystery4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E410425893E62004138C1 /* JoyfulMystery4View.swift */; };
+		B9682FA6256F118D0061764F /* NextButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9682FA5256F118D0061764F /* NextButtonView.swift */; };
+		B9682FAA256F1A970061764F /* PrayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9682FA9256F1A970061764F /* PrayerData.swift */; };
+		B9682FAF256F1AF80061764F /* PrayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9682FAE256F1AF80061764F /* PrayerModel.swift */; };
+		B96F0F4C258BC3C0002BB73E /* Glorious1Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F4B258BC3C0002BB73E /* Glorious1Dedication.swift */; };
+		B96F0F4F258BC43D002BB73E /* GloriousMystery1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F4E258BC43D002BB73E /* GloriousMystery1View.swift */; };
+		B96F0F52258BC4CA002BB73E /* GloriousMysteryMystery2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F51258BC4CA002BB73E /* GloriousMysteryMystery2.swift */; };
+		B96F0F55258BC582002BB73E /* Glorious2Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F54258BC582002BB73E /* Glorious2Dedication.swift */; };
+		B96F0F58258BC5F9002BB73E /* GloriousMystery2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F57258BC5F9002BB73E /* GloriousMystery2View.swift */; };
+		B96F0F5B258BC672002BB73E /* GloriousMysteryMystery3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F5A258BC672002BB73E /* GloriousMysteryMystery3.swift */; };
+		B96F0F5E258BC6D4002BB73E /* Glorious3Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F5D258BC6D4002BB73E /* Glorious3Dedication.swift */; };
+		B96F0F61258BC719002BB73E /* GloriousMystery3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F60258BC719002BB73E /* GloriousMystery3View.swift */; };
+		B96F0F64258BC786002BB73E /* GloriousMysteryMystery4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F63258BC786002BB73E /* GloriousMysteryMystery4.swift */; };
+		B96F0F67258BC7B6002BB73E /* Glorious4Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F66258BC7B6002BB73E /* Glorious4Dedication.swift */; };
+		B96F0F6A258BC7E9002BB73E /* GloriousMystery4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F69258BC7E9002BB73E /* GloriousMystery4View.swift */; };
+		B96F0F6D258BC837002BB73E /* GloriousMysteryMystery5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F6C258BC837002BB73E /* GloriousMysteryMystery5.swift */; };
+		B96F0F70258BC888002BB73E /* Glorious5Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F6F258BC888002BB73E /* Glorious5Dedication.swift */; };
+		B96F0F73258BC8C1002BB73E /* GloriousMystery5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F72258BC8C1002BB73E /* GloriousMystery5View.swift */; };
+		B96F0F79258BCF93002BB73E /* LightMysteryMystery1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F78258BCF93002BB73E /* LightMysteryMystery1.swift */; };
+		B96F0F7D258BD008002BB73E /* Light1Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F7C258BD008002BB73E /* Light1Dedication.swift */; };
+		B96F0F80258BD04B002BB73E /* LightMystery1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F7F258BD04B002BB73E /* LightMystery1View.swift */; };
+		B96F0F83258BD0B7002BB73E /* LightMysteryMystery2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F82258BD0B7002BB73E /* LightMysteryMystery2.swift */; };
+		B96F0F86258BD183002BB73E /* Light2Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F85258BD183002BB73E /* Light2Dedication.swift */; };
+		B96F0F89258BD1BF002BB73E /* LightMystery2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F88258BD1BF002BB73E /* LightMystery2View.swift */; };
+		B96F0F8C258BD207002BB73E /* LightMysteryMystery3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F8B258BD207002BB73E /* LightMysteryMystery3.swift */; };
+		B96F0F8F258BD243002BB73E /* Light3Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F8E258BD243002BB73E /* Light3Dedication.swift */; };
+		B96F0F92258BD291002BB73E /* LightMystery3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F91258BD291002BB73E /* LightMystery3View.swift */; };
+		B96F0F95258BD469002BB73E /* LightMysteryMystery4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F94258BD469002BB73E /* LightMysteryMystery4.swift */; };
+		B96F0F98258BD56E002BB73E /* Light4Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F97258BD56E002BB73E /* Light4Dedication.swift */; };
+		B96F0F9B258BD616002BB73E /* LightMystery4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F9A258BD616002BB73E /* LightMystery4View.swift */; };
+		B96F0F9E258BD687002BB73E /* LightMysteryMystery5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0F9D258BD687002BB73E /* LightMysteryMystery5.swift */; };
+		B96F0FA1258BD824002BB73E /* Light5Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0FA0258BD824002BB73E /* Light5Dedication.swift */; };
+		B96F0FA4258BDADE002BB73E /* LightMystery5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F0FA3258BDADE002BB73E /* LightMystery5View.swift */; };
+		B9842C51256C95B000C6FAC4 /* Rosary_CurrentEventsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9842C50256C95B000C6FAC4 /* Rosary_CurrentEventsApp.swift */; };
+		B9842C53256C95B000C6FAC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9842C52256C95B000C6FAC4 /* ContentView.swift */; };
+		B9842C55256C95B200C6FAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9842C54256C95B200C6FAC4 /* Assets.xcassets */; };
+		B9842C58256C95B200C6FAC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9842C57256C95B200C6FAC4 /* Preview Assets.xcassets */; };
+		B9842C64256C961F00C6FAC4 /* MysteryVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9842C63256C961F00C6FAC4 /* MysteryVeiw.swift */; };
+		B9A2700A258A8D040093434A /* JoyfulMystery5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A27009258A8D040093434A /* JoyfulMystery5View.swift */; };
+		B9A2700E258A8E190093434A /* SorrowfulMysteryMystery1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A2700D258A8E190093434A /* SorrowfulMysteryMystery1View.swift */; };
+		B9A27011258AFC350093434A /* Sorrowful1Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A27010258AFC350093434A /* Sorrowful1Dedication.swift */; };
+		B9A27014258AFED70093434A /* SorrowfulMystery1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A27013258AFED70093434A /* SorrowfulMystery1View.swift */; };
+		B9A6249D25892CFF00F7C006 /* Joyful2DedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A6249C25892CFF00F7C006 /* Joyful2DedicationView.swift */; };
+		B9ACEE2825881F8F00BD0CE3 /* JoyfulMystery1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ACEE2725881F8F00BD0CE3 /* JoyfulMystery1View.swift */; };
+		B9ACEE2B2588292300BD0CE3 /* JoyfulMysteryMystery2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ACEE2A2588292300BD0CE3 /* JoyfulMysteryMystery2.swift */; };
+		B9ACEE2E258829D300BD0CE3 /* JoyfulMystery2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ACEE2D258829D300BD0CE3 /* JoyfulMystery2View.swift */; };
+		B9B5505B258B01110092077F /* SorrowfulMysteryMystery2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B5505A258B01110092077F /* SorrowfulMysteryMystery2.swift */; };
+		B9B5505F258B026C0092077F /* Sorrowful2Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B5505E258B026C0092077F /* Sorrowful2Dedication.swift */; };
+		B9B55062258B02D80092077F /* SorrowfulMystery2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B55061258B02D80092077F /* SorrowfulMystery2View.swift */; };
+		B9B55065258B05AE0092077F /* SorrowfulMysteryMystery3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B55064258B05AE0092077F /* SorrowfulMysteryMystery3.swift */; };
+		B9B55068258B060C0092077F /* Sorrowful3Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B55067258B060C0092077F /* Sorrowful3Dedication.swift */; };
+		B9B5506B258B06630092077F /* SorrowfulMystery3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B5506A258B06630092077F /* SorrowfulMystery3View.swift */; };
+		B9B5506E258B06F00092077F /* SorrowfulMysteryMystery4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B5506D258B06F00092077F /* SorrowfulMysteryMystery4.swift */; };
+		B9B55071258B076F0092077F /* Sorrowful4Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B55070258B076F0092077F /* Sorrowful4Dedication.swift */; };
+		B9B55074258B07C80092077F /* SorrowfulMystery4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B55073258B07C80092077F /* SorrowfulMystery4View.swift */; };
+		B9B55077258B08370092077F /* SorrowfulMysteryMystery5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B55076258B08370092077F /* SorrowfulMysteryMystery5.swift */; };
+		B9B5507A258B08840092077F /* Sorrowful5Dedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B55079258B08840092077F /* Sorrowful5Dedication.swift */; };
+		B9B5507D258B08D40092077F /* SorrowfulMystery5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B5507C258B08D40092077F /* SorrowfulMystery5View.swift */; };
+		B9B55081258B0A4F0092077F /* GloriousMysteryMystery1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B55080258B0A4F0092077F /* GloriousMysteryMystery1.swift */; };
+		B9B9FA6C25882B2400F9A044 /* Joyful1DedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B9FA6B25882B2400F9A044 /* Joyful1DedicationView.swift */; };
+		B9F3631D2576F45400F4647D /* OpeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F3631C2576F45400F4647D /* OpeningView.swift */; };
+		B9FF6E2E2575B57B002EB9A9 /* FirstPrayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FF6E2D2575B57B002EB9A9 /* FirstPrayersView.swift */; };
+		B9FF6E312575B5A4002EB9A9 /* Prayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FF6E302575B5A4002EB9A9 /* Prayers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9037016258942D100D4133C /* JoyfulMysteryMystery5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyfulMysteryMystery5View.swift; sourceTree = "<group>"; };
+		B9037019258943DD00D4133C /* Joyful5DedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joyful5DedicationView.swift; sourceTree = "<group>"; };
+		B91280572576BBAB00AB5AA9 /* ChooseDayview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDayview.swift; sourceTree = "<group>"; };
+		B928B14925881C7C000D9CDA /* JoyfulMysteryMystery1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyfulMysteryMystery1View.swift; sourceTree = "<group>"; };
+		B95E40F4258930E1004138C1 /* JoyfulMysteryMystery3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyfulMysteryMystery3.swift; sourceTree = "<group>"; };
+		B95E40F725893187004138C1 /* Joyful3DedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joyful3DedicationView.swift; sourceTree = "<group>"; };
+		B95E40FB2589324F004138C1 /* JoyfulMystery3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyfulMystery3View.swift; sourceTree = "<group>"; };
+		B95E40FE25893305004138C1 /* JoyfulMysteryMystery4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyfulMysteryMystery4View.swift; sourceTree = "<group>"; };
+		B95E410125893DC7004138C1 /* Joyful4DedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joyful4DedicationView.swift; sourceTree = "<group>"; };
+		B95E410425893E62004138C1 /* JoyfulMystery4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyfulMystery4View.swift; sourceTree = "<group>"; };
+		B9682FA5256F118D0061764F /* NextButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonView.swift; sourceTree = "<group>"; };
+		B9682FA9256F1A970061764F /* PrayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerData.swift; sourceTree = "<group>"; };
+		B9682FAE256F1AF80061764F /* PrayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerModel.swift; sourceTree = "<group>"; };
+		B96F0F4B258BC3C0002BB73E /* Glorious1Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glorious1Dedication.swift; sourceTree = "<group>"; };
+		B96F0F4E258BC43D002BB73E /* GloriousMystery1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriousMystery1View.swift; sourceTree = "<group>"; };
+		B96F0F51258BC4CA002BB73E /* GloriousMysteryMystery2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriousMysteryMystery2.swift; sourceTree = "<group>"; };
+		B96F0F54258BC582002BB73E /* Glorious2Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glorious2Dedication.swift; sourceTree = "<group>"; };
+		B96F0F57258BC5F9002BB73E /* GloriousMystery2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriousMystery2View.swift; sourceTree = "<group>"; };
+		B96F0F5A258BC672002BB73E /* GloriousMysteryMystery3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriousMysteryMystery3.swift; sourceTree = "<group>"; };
+		B96F0F5D258BC6D4002BB73E /* Glorious3Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glorious3Dedication.swift; sourceTree = "<group>"; };
+		B96F0F60258BC719002BB73E /* GloriousMystery3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriousMystery3View.swift; sourceTree = "<group>"; };
+		B96F0F63258BC786002BB73E /* GloriousMysteryMystery4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriousMysteryMystery4.swift; sourceTree = "<group>"; };
+		B96F0F66258BC7B6002BB73E /* Glorious4Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glorious4Dedication.swift; sourceTree = "<group>"; };
+		B96F0F69258BC7E9002BB73E /* GloriousMystery4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriousMystery4View.swift; sourceTree = "<group>"; };
+		B96F0F6C258BC837002BB73E /* GloriousMysteryMystery5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriousMysteryMystery5.swift; sourceTree = "<group>"; };
+		B96F0F6F258BC888002BB73E /* Glorious5Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glorious5Dedication.swift; sourceTree = "<group>"; };
+		B96F0F72258BC8C1002BB73E /* GloriousMystery5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriousMystery5View.swift; sourceTree = "<group>"; };
+		B96F0F78258BCF93002BB73E /* LightMysteryMystery1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMysteryMystery1.swift; sourceTree = "<group>"; };
+		B96F0F7C258BD008002BB73E /* Light1Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light1Dedication.swift; sourceTree = "<group>"; };
+		B96F0F7F258BD04B002BB73E /* LightMystery1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMystery1View.swift; sourceTree = "<group>"; };
+		B96F0F82258BD0B7002BB73E /* LightMysteryMystery2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMysteryMystery2.swift; sourceTree = "<group>"; };
+		B96F0F85258BD183002BB73E /* Light2Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light2Dedication.swift; sourceTree = "<group>"; };
+		B96F0F88258BD1BF002BB73E /* LightMystery2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMystery2View.swift; sourceTree = "<group>"; };
+		B96F0F8B258BD207002BB73E /* LightMysteryMystery3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMysteryMystery3.swift; sourceTree = "<group>"; };
+		B96F0F8E258BD243002BB73E /* Light3Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light3Dedication.swift; sourceTree = "<group>"; };
+		B96F0F91258BD291002BB73E /* LightMystery3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMystery3View.swift; sourceTree = "<group>"; };
+		B96F0F94258BD469002BB73E /* LightMysteryMystery4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMysteryMystery4.swift; sourceTree = "<group>"; };
+		B96F0F97258BD56E002BB73E /* Light4Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light4Dedication.swift; sourceTree = "<group>"; };
+		B96F0F9A258BD616002BB73E /* LightMystery4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMystery4View.swift; sourceTree = "<group>"; };
+		B96F0F9D258BD687002BB73E /* LightMysteryMystery5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMysteryMystery5.swift; sourceTree = "<group>"; };
+		B96F0FA0258BD824002BB73E /* Light5Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light5Dedication.swift; sourceTree = "<group>"; };
+		B96F0FA3258BDADE002BB73E /* LightMystery5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMystery5View.swift; sourceTree = "<group>"; };
+		B9842C4D256C95B000C6FAC4 /* Rosary-CurrentEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rosary-CurrentEvents.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9842C50256C95B000C6FAC4 /* Rosary_CurrentEventsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rosary_CurrentEventsApp.swift; sourceTree = "<group>"; };
+		B9842C52256C95B000C6FAC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9842C54256C95B200C6FAC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9842C57256C95B200C6FAC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9842C59256C95B200C6FAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9842C63256C961F00C6FAC4 /* MysteryVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysteryVeiw.swift; sourceTree = "<group>"; };
+		B9A27009258A8D040093434A /* JoyfulMystery5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyfulMystery5View.swift; sourceTree = "<group>"; };
+		B9A2700D258A8E190093434A /* SorrowfulMysteryMystery1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorrowfulMysteryMystery1View.swift; sourceTree = "<group>"; };
+		B9A27010258AFC350093434A /* Sorrowful1Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorrowful1Dedication.swift; sourceTree = "<group>"; };
+		B9A27013258AFED70093434A /* SorrowfulMystery1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorrowfulMystery1View.swift; sourceTree = "<group>"; };
+		B9A6249C25892CFF00F7C006 /* Joyful2DedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joyful2DedicationView.swift; sourceTree = "<group>"; };
+		B9ACEE2725881F8F00BD0CE3 /* JoyfulMystery1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyfulMystery1View.swift; sourceTree = "<group>"; };
+		B9ACEE2A2588292300BD0CE3 /* JoyfulMysteryMystery2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyfulMysteryMystery2.swift; sourceTree = "<group>"; };
+		B9ACEE2D258829D300BD0CE3 /* JoyfulMystery2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyfulMystery2View.swift; sourceTree = "<group>"; };
+		B9B5505A258B01110092077F /* SorrowfulMysteryMystery2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorrowfulMysteryMystery2.swift; sourceTree = "<group>"; };
+		B9B5505E258B026C0092077F /* Sorrowful2Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorrowful2Dedication.swift; sourceTree = "<group>"; };
+		B9B55061258B02D80092077F /* SorrowfulMystery2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorrowfulMystery2View.swift; sourceTree = "<group>"; };
+		B9B55064258B05AE0092077F /* SorrowfulMysteryMystery3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorrowfulMysteryMystery3.swift; sourceTree = "<group>"; };
+		B9B55067258B060C0092077F /* Sorrowful3Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorrowful3Dedication.swift; sourceTree = "<group>"; };
+		B9B5506A258B06630092077F /* SorrowfulMystery3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorrowfulMystery3View.swift; sourceTree = "<group>"; };
+		B9B5506D258B06F00092077F /* SorrowfulMysteryMystery4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorrowfulMysteryMystery4.swift; sourceTree = "<group>"; };
+		B9B55070258B076F0092077F /* Sorrowful4Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorrowful4Dedication.swift; sourceTree = "<group>"; };
+		B9B55073258B07C80092077F /* SorrowfulMystery4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorrowfulMystery4View.swift; sourceTree = "<group>"; };
+		B9B55076258B08370092077F /* SorrowfulMysteryMystery5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorrowfulMysteryMystery5.swift; sourceTree = "<group>"; };
+		B9B55079258B08840092077F /* Sorrowful5Dedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorrowful5Dedication.swift; sourceTree = "<group>"; };
+		B9B5507C258B08D40092077F /* SorrowfulMystery5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorrowfulMystery5View.swift; sourceTree = "<group>"; };
+		B9B55080258B0A4F0092077F /* GloriousMysteryMystery1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriousMysteryMystery1.swift; sourceTree = "<group>"; };
+		B9B9FA6B25882B2400F9A044 /* Joyful1DedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joyful1DedicationView.swift; sourceTree = "<group>"; };
+		B9F3631C2576F45400F4647D /* OpeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningView.swift; sourceTree = "<group>"; };
+		B9FF6E2D2575B57B002EB9A9 /* FirstPrayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPrayersView.swift; sourceTree = "<group>"; };
+		B9FF6E302575B5A4002EB9A9 /* Prayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9842C4A256C95B000C6FAC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B928B14825881C64000D9CDA /* JoyfulMysteries */ = {
+			isa = PBXGroup;
+			children = (
+				B928B14925881C7C000D9CDA /* JoyfulMysteryMystery1View.swift */,
+				B9B9FA6B25882B2400F9A044 /* Joyful1DedicationView.swift */,
+				B9ACEE2725881F8F00BD0CE3 /* JoyfulMystery1View.swift */,
+				B9ACEE2A2588292300BD0CE3 /* JoyfulMysteryMystery2.swift */,
+				B9A6249C25892CFF00F7C006 /* Joyful2DedicationView.swift */,
+				B9ACEE2D258829D300BD0CE3 /* JoyfulMystery2View.swift */,
+				B95E40F4258930E1004138C1 /* JoyfulMysteryMystery3.swift */,
+				B95E40F725893187004138C1 /* Joyful3DedicationView.swift */,
+				B95E40FB2589324F004138C1 /* JoyfulMystery3View.swift */,
+				B95E40FE25893305004138C1 /* JoyfulMysteryMystery4View.swift */,
+				B95E410125893DC7004138C1 /* Joyful4DedicationView.swift */,
+				B95E410425893E62004138C1 /* JoyfulMystery4View.swift */,
+				B9037016258942D100D4133C /* JoyfulMysteryMystery5View.swift */,
+				B9037019258943DD00D4133C /* Joyful5DedicationView.swift */,
+				B9A27009258A8D040093434A /* JoyfulMystery5View.swift */,
+			);
+			path = JoyfulMysteries;
+			sourceTree = "<group>";
+		};
+		B9682FA8256F1A880061764F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B9682FA9256F1A970061764F /* PrayerData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B9682FAD256F1AE90061764F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9682FAE256F1AF80061764F /* PrayerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B96F0F75258BC9D8002BB73E /* Opening */ = {
+			isa = PBXGroup;
+			children = (
+				B9FF6E2D2575B57B002EB9A9 /* FirstPrayersView.swift */,
+				B91280572576BBAB00AB5AA9 /* ChooseDayview.swift */,
+				B9F3631C2576F45400F4647D /* OpeningView.swift */,
+			);
+			path = Opening;
+			sourceTree = "<group>";
+		};
+		B96F0F77258BCF7A002BB73E /* MysteryOfLight */ = {
+			isa = PBXGroup;
+			children = (
+				B96F0F78258BCF93002BB73E /* LightMysteryMystery1.swift */,
+				B96F0F7C258BD008002BB73E /* Light1Dedication.swift */,
+				B96F0F7F258BD04B002BB73E /* LightMystery1View.swift */,
+				B96F0F82258BD0B7002BB73E /* LightMysteryMystery2.swift */,
+				B96F0F85258BD183002BB73E /* Light2Dedication.swift */,
+				B96F0F88258BD1BF002BB73E /* LightMystery2View.swift */,
+				B96F0F8B258BD207002BB73E /* LightMysteryMystery3.swift */,
+				B96F0F8E258BD243002BB73E /* Light3Dedication.swift */,
+				B96F0F91258BD291002BB73E /* LightMystery3View.swift */,
+				B96F0F94258BD469002BB73E /* LightMysteryMystery4.swift */,
+				B96F0F97258BD56E002BB73E /* Light4Dedication.swift */,
+				B96F0F9A258BD616002BB73E /* LightMystery4View.swift */,
+				B96F0F9D258BD687002BB73E /* LightMysteryMystery5.swift */,
+				B96F0FA0258BD824002BB73E /* Light5Dedication.swift */,
+				B96F0FA3258BDADE002BB73E /* LightMystery5View.swift */,
+			);
+			path = MysteryOfLight;
+			sourceTree = "<group>";
+		};
+		B9842C44256C95B000C6FAC4 = {
+			isa = PBXGroup;
+			children = (
+				B9842C4F256C95B000C6FAC4 /* Rosary-CurrentEvents */,
+				B9842C4E256C95B000C6FAC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9842C4E256C95B000C6FAC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9842C4D256C95B000C6FAC4 /* Rosary-CurrentEvents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9842C4F256C95B000C6FAC4 /* Rosary-CurrentEvents */ = {
+			isa = PBXGroup;
+			children = (
+				B9682FAD256F1AE90061764F /* Model */,
+				B9682FA8256F1A880061764F /* Data */,
+				B9842C62256C95CB00C6FAC4 /* View */,
+				B9842C60256C95C200C6FAC4 /* App */,
+				B9842C54256C95B200C6FAC4 /* Assets.xcassets */,
+				B9842C59256C95B200C6FAC4 /* Info.plist */,
+				B9842C56256C95B200C6FAC4 /* Preview Content */,
+			);
+			path = "Rosary-CurrentEvents";
+			sourceTree = "<group>";
+		};
+		B9842C56256C95B200C6FAC4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9842C57256C95B200C6FAC4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9842C60256C95C200C6FAC4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B96F0F77258BCF7A002BB73E /* MysteryOfLight */,
+				B9B5507F258B09E60092077F /* GloriusMysteries */,
+				B9A2700C258A8D980093434A /* SorrowfulMysteries */,
+				B928B14825881C64000D9CDA /* JoyfulMysteries */,
+				B9842C50256C95B000C6FAC4 /* Rosary_CurrentEventsApp.swift */,
+				B9842C52256C95B000C6FAC4 /* ContentView.swift */,
+				B96F0F75258BC9D8002BB73E /* Opening */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B9842C62256C95CB00C6FAC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9842C63256C961F00C6FAC4 /* MysteryVeiw.swift */,
+				B9682FA5256F118D0061764F /* NextButtonView.swift */,
+				B9FF6E302575B5A4002EB9A9 /* Prayers.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9A2700C258A8D980093434A /* SorrowfulMysteries */ = {
+			isa = PBXGroup;
+			children = (
+				B9A2700D258A8E190093434A /* SorrowfulMysteryMystery1View.swift */,
+				B9A27010258AFC350093434A /* Sorrowful1Dedication.swift */,
+				B9A27013258AFED70093434A /* SorrowfulMystery1View.swift */,
+				B9B5505A258B01110092077F /* SorrowfulMysteryMystery2.swift */,
+				B9B5505E258B026C0092077F /* Sorrowful2Dedication.swift */,
+				B9B55061258B02D80092077F /* SorrowfulMystery2View.swift */,
+				B9B55064258B05AE0092077F /* SorrowfulMysteryMystery3.swift */,
+				B9B55067258B060C0092077F /* Sorrowful3Dedication.swift */,
+				B9B5506A258B06630092077F /* SorrowfulMystery3View.swift */,
+				B9B5506D258B06F00092077F /* SorrowfulMysteryMystery4.swift */,
+				B9B55070258B076F0092077F /* Sorrowful4Dedication.swift */,
+				B9B55073258B07C80092077F /* SorrowfulMystery4View.swift */,
+				B9B55076258B08370092077F /* SorrowfulMysteryMystery5.swift */,
+				B9B55079258B08840092077F /* Sorrowful5Dedication.swift */,
+				B9B5507C258B08D40092077F /* SorrowfulMystery5View.swift */,
+			);
+			path = SorrowfulMysteries;
+			sourceTree = "<group>";
+		};
+		B9B5507F258B09E60092077F /* GloriusMysteries */ = {
+			isa = PBXGroup;
+			children = (
+				B9B55080258B0A4F0092077F /* GloriousMysteryMystery1.swift */,
+				B96F0F4B258BC3C0002BB73E /* Glorious1Dedication.swift */,
+				B96F0F4E258BC43D002BB73E /* GloriousMystery1View.swift */,
+				B96F0F51258BC4CA002BB73E /* GloriousMysteryMystery2.swift */,
+				B96F0F54258BC582002BB73E /* Glorious2Dedication.swift */,
+				B96F0F57258BC5F9002BB73E /* GloriousMystery2View.swift */,
+				B96F0F5A258BC672002BB73E /* GloriousMysteryMystery3.swift */,
+				B96F0F5D258BC6D4002BB73E /* Glorious3Dedication.swift */,
+				B96F0F60258BC719002BB73E /* GloriousMystery3View.swift */,
+				B96F0F63258BC786002BB73E /* GloriousMysteryMystery4.swift */,
+				B96F0F66258BC7B6002BB73E /* Glorious4Dedication.swift */,
+				B96F0F69258BC7E9002BB73E /* GloriousMystery4View.swift */,
+				B96F0F6C258BC837002BB73E /* GloriousMysteryMystery5.swift */,
+				B96F0F6F258BC888002BB73E /* Glorious5Dedication.swift */,
+				B96F0F72258BC8C1002BB73E /* GloriousMystery5View.swift */,
+			);
+			path = GloriusMysteries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9842C4C256C95B000C6FAC4 /* Rosary-CurrentEvents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9842C5C256C95B200C6FAC4 /* Build configuration list for PBXNativeTarget "Rosary-CurrentEvents" */;
+			buildPhases = (
+				B9842C49256C95B000C6FAC4 /* Sources */,
+				B9842C4A256C95B000C6FAC4 /* Frameworks */,
+				B9842C4B256C95B000C6FAC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rosary-CurrentEvents";
+			productName = "Rosary-CurrentEvents";
+			productReference = B9842C4D256C95B000C6FAC4 /* Rosary-CurrentEvents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9842C45256C95B000C6FAC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B9842C4C256C95B000C6FAC4 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = B9842C48256C95B000C6FAC4 /* Build configuration list for PBXProject "Rosary-CurrentEvents" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9842C44256C95B000C6FAC4;
+			productRefGroup = B9842C4E256C95B000C6FAC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9842C4C256C95B000C6FAC4 /* Rosary-CurrentEvents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9842C4B256C95B000C6FAC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9842C58256C95B200C6FAC4 /* Preview Assets.xcassets in Resources */,
+				B9842C55256C95B200C6FAC4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9842C49256C95B000C6FAC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96F0F55258BC582002BB73E /* Glorious2Dedication.swift in Sources */,
+				B96F0F73258BC8C1002BB73E /* GloriousMystery5View.swift in Sources */,
+				B96F0F61258BC719002BB73E /* GloriousMystery3View.swift in Sources */,
+				B95E410525893E62004138C1 /* JoyfulMystery4View.swift in Sources */,
+				B96F0F95258BD469002BB73E /* LightMysteryMystery4.swift in Sources */,
+				B96F0F98258BD56E002BB73E /* Light4Dedication.swift in Sources */,
+				B9B5506E258B06F00092077F /* SorrowfulMysteryMystery4.swift in Sources */,
+				B9B55062258B02D80092077F /* SorrowfulMystery2View.swift in Sources */,
+				B95E40FF25893305004138C1 /* JoyfulMysteryMystery4View.swift in Sources */,
+				B9ACEE2B2588292300BD0CE3 /* JoyfulMysteryMystery2.swift in Sources */,
+				B9FF6E2E2575B57B002EB9A9 /* FirstPrayersView.swift in Sources */,
+				B95E40F825893187004138C1 /* Joyful3DedicationView.swift in Sources */,
+				B96F0F89258BD1BF002BB73E /* LightMystery2View.swift in Sources */,
+				B95E410225893DC7004138C1 /* Joyful4DedicationView.swift in Sources */,
+				B9B5505B258B01110092077F /* SorrowfulMysteryMystery2.swift in Sources */,
+				B9B55074258B07C80092077F /* SorrowfulMystery4View.swift in Sources */,
+				B9A6249D25892CFF00F7C006 /* Joyful2DedicationView.swift in Sources */,
+				B9ACEE2825881F8F00BD0CE3 /* JoyfulMystery1View.swift in Sources */,
+				B96F0F52258BC4CA002BB73E /* GloriousMysteryMystery2.swift in Sources */,
+				B9B55068258B060C0092077F /* Sorrowful3Dedication.swift in Sources */,
+				B96F0F9E258BD687002BB73E /* LightMysteryMystery5.swift in Sources */,
+				B928B14A25881C7C000D9CDA /* JoyfulMysteryMystery1View.swift in Sources */,
+				B96F0F6D258BC837002BB73E /* GloriousMysteryMystery5.swift in Sources */,
+				B9B5505F258B026C0092077F /* Sorrowful2Dedication.swift in Sources */,
+				B9037017258942D100D4133C /* JoyfulMysteryMystery5View.swift in Sources */,
+				B9A27014258AFED70093434A /* SorrowfulMystery1View.swift in Sources */,
+				B9682FAF256F1AF80061764F /* PrayerModel.swift in Sources */,
+				B903701A258943DD00D4133C /* Joyful5DedicationView.swift in Sources */,
+				B96F0F79258BCF93002BB73E /* LightMysteryMystery1.swift in Sources */,
+				B96F0F83258BD0B7002BB73E /* LightMysteryMystery2.swift in Sources */,
+				B96F0F58258BC5F9002BB73E /* GloriousMystery2View.swift in Sources */,
+				B9B55077258B08370092077F /* SorrowfulMysteryMystery5.swift in Sources */,
+				B96F0F80258BD04B002BB73E /* LightMystery1View.swift in Sources */,
+				B9B9FA6C25882B2400F9A044 /* Joyful1DedicationView.swift in Sources */,
+				B96F0F6A258BC7E9002BB73E /* GloriousMystery4View.swift in Sources */,
+				B9B5506B258B06630092077F /* SorrowfulMystery3View.swift in Sources */,
+				B95E40FC2589324F004138C1 /* JoyfulMystery3View.swift in Sources */,
+				B96F0F70258BC888002BB73E /* Glorious5Dedication.swift in Sources */,
+				B9A2700A258A8D040093434A /* JoyfulMystery5View.swift in Sources */,
+				B96F0F86258BD183002BB73E /* Light2Dedication.swift in Sources */,
+				B9842C53256C95B000C6FAC4 /* ContentView.swift in Sources */,
+				B96F0F67258BC7B6002BB73E /* Glorious4Dedication.swift in Sources */,
+				B96F0F7D258BD008002BB73E /* Light1Dedication.swift in Sources */,
+				B9682FA6256F118D0061764F /* NextButtonView.swift in Sources */,
+				B96F0FA1258BD824002BB73E /* Light5Dedication.swift in Sources */,
+				B9B5507A258B08840092077F /* Sorrowful5Dedication.swift in Sources */,
+				B95E40F5258930E1004138C1 /* JoyfulMysteryMystery3.swift in Sources */,
+				B96F0F5B258BC672002BB73E /* GloriousMysteryMystery3.swift in Sources */,
+				B9ACEE2E258829D300BD0CE3 /* JoyfulMystery2View.swift in Sources */,
+				B96F0FA4258BDADE002BB73E /* LightMystery5View.swift in Sources */,
+				B9682FAA256F1A970061764F /* PrayerData.swift in Sources */,
+				B9B55081258B0A4F0092077F /* GloriousMysteryMystery1.swift in Sources */,
+				B9B5507D258B08D40092077F /* SorrowfulMystery5View.swift in Sources */,
+				B9F3631D2576F45400F4647D /* OpeningView.swift in Sources */,
+				B96F0F4C258BC3C0002BB73E /* Glorious1Dedication.swift in Sources */,
+				B9B55065258B05AE0092077F /* SorrowfulMysteryMystery3.swift in Sources */,
+				B96F0F64258BC786002BB73E /* GloriousMysteryMystery4.swift in Sources */,
+				B96F0F8C258BD207002BB73E /* LightMysteryMystery3.swift in Sources */,
+				B96F0F92258BD291002BB73E /* LightMystery3View.swift in Sources */,
+				B96F0F8F258BD243002BB73E /* Light3Dedication.swift in Sources */,
+				B9842C64256C961F00C6FAC4 /* MysteryVeiw.swift in Sources */,
+				B9FF6E312575B5A4002EB9A9 /* Prayers.swift in Sources */,
+				B91280582576BBAB00AB5AA9 /* ChooseDayview.swift in Sources */,
+				B9B55071258B076F0092077F /* Sorrowful4Dedication.swift in Sources */,
+				B9A2700E258A8E190093434A /* SorrowfulMysteryMystery1View.swift in Sources */,
+				B96F0F4F258BC43D002BB73E /* GloriousMystery1View.swift in Sources */,
+				B9A27011258AFC350093434A /* Sorrowful1Dedication.swift in Sources */,
+				B9842C51256C95B000C6FAC4 /* Rosary_CurrentEventsApp.swift in Sources */,
+				B96F0F9B258BD616002BB73E /* LightMystery4View.swift in Sources */,
+				B96F0F5E258BC6D4002BB73E /* Glorious3Dedication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9842C5A256C95B200C6FAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9842C5B256C95B200C6FAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9842C5D256C95B200C6FAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rosary-CurrentEvents/Preview Content\"";
+				DEVELOPMENT_TEAM = 78977XTL46;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Rosary-CurrentEvents/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rscottsites.fructus.Rosary-CurrentEvents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9842C5E256C95B200C6FAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rosary-CurrentEvents/Preview Content\"";
+				DEVELOPMENT_TEAM = 78977XTL46;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Rosary-CurrentEvents/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rscottsites.fructus.Rosary-CurrentEvents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9842C48256C95B000C6FAC4 /* Build configuration list for PBXProject "Rosary-CurrentEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9842C5A256C95B200C6FAC4 /* Debug */,
+				B9842C5B256C95B200C6FAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9842C5C256C95B200C6FAC4 /* Build configuration list for PBXNativeTarget "Rosary-CurrentEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9842C5D256C95B200C6FAC4 /* Debug */,
+				B9842C5E256C95B200C6FAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9842C45256C95B000C6FAC4 /* Project object */;
+}
